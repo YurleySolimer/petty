@@ -89,5 +89,97 @@
     "vacunado": true,
     "castrado": true,
     "desparacitado": false
-  }  
+  },
+  {
+    "id": "2afomeoias456e47852u",
+    "name": "Rita",
+    "breed": "Puddle",
+    "gender": "F",
+    "weight": 3,
+    "age": "Cachorro",
+    "age2": "2 meses",
+    "photos": [
+      "https://i.pinimg.com/736x/f9/cd/f9/f9cdf9807c6e607bf3a2c171825cb85a.jpg"
+    ],
+    "favorite": true,
+    "description": "Una cachorrita timida y obediente",
+    "address": "Altamira Caracas",
+    "vacunado": true,
+    "castrado": true,
+    "desparacitado": true
+  }  ,
+  {
+    "id": "2afomeoias45o747852u",
+    "name": "Flofy",
+    "breed": "Dalmata",
+    "gender": "M",
+    "weight": 12,
+    "age": "Cachorro",
+    "age2": "1 año",
+    "photos": [
+      "https://estaticos.muyinteresante.es/uploads/images/gallery/5b166b335bafe8f0cc7acf19/pongo-el-dalmata.jpg"
+    ],
+    "favorite": true,
+    "description": "Alegre y con mucha energia",
+    "address": "Sabana Grande Caracas",
+    "vacunado": true,
+    "castrado": true,
+    "desparacitado": true
+  }  ,
+  {
+    "id": "2afomeoias458e47852u",
+    "name": "Puchi",
+    "breed": "Puddle",
+    "gender": "M",
+    "weight": 8,
+    "age": "Cachorro",
+    "age2": "10 meses",
+    "photos": [
+      "https://us.123rf.com/450wm/thailandonly/thailandonly1305/thailandonly130501403/19828678-perrito-poodle-blanco.jpg?ver=6"
+    ],
+    "favorite": true,
+    "description": "",
+    "address": "Los Dos Caminos Caracas",
+    "vacunado": true,
+    "castrado": false,
+    "desparacitado": true
+  }  ,
+  {
+    "id": "2afomeoias459e47852u",
+    "name": "Maggie",
+    "breed": "Pug",
+    "gender": "F",
+    "weight": 12,
+    "age": "Adulto",
+    "age2": "2 años",
+    "photos": [
+      "https://www.thedelite.com/wp-content/uploads/2020/04/AdobeStock_316181219-scaled.jpeg"
+    ],
+    "favorite": true,
+    "description": "Le gusta bañarse escuchando música",
+    "address": "Altamira Caracas",
+    "vacunado": true,
+    "castrado": true,
+    "desparacitado": true
+  }  ,
+  {
+    "id": "2afomeoias450e47852u",
+    "name": "Lola",
+    "breed": "Doberman",
+    "gender": "F",
+    "weight": 8,
+    "age": "Cachorro",
+    "age2": "1 año",
+    "photos": [
+      "https://i.pinimg.com/564x/ee/fb/3e/eefb3e64ebdcd62454b35fc903182f27.jpg"
+    ],
+    "favorite": true,
+    "description": "Le gusta jugar con pelotas y peluches",
+    "address": "Sabana Grande Caracas",
+    "vacunado": true,
+    "castrado": true,
+    "desparacitado": true
+  }
+  
+    
 ]
