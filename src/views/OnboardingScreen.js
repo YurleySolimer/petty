@@ -30,14 +30,17 @@ let styles = StyleSheet.create({
 const Square = ({ selected }) => {
   let backgroundColor;
   backgroundColor = selected ? "#F1A852" : "#E6E7F8";
+  let radius = selected ? 50 : 25;
+  let widthSquare = selected ? 25 : 9;
   return (
     <View
       style={{
-        width: 12,
-        height: 8,
+        width: widthSquare,
+        height: 9,
         marginHorizontal: 3,
         backgroundColor,
         top: -220,
+        borderRadius: radius
       }}
     />
   );
@@ -53,7 +56,7 @@ const Next = ({ isLight, ...props }) => (
     containerViewStyle={{
       backgroundColor: "#9B8ACA",
     }}
-    textStyle={{ color: color(isLight) }}
+    textStyle={{ color: color(isLight), fontWeight: 'bold' }}
     {...props}
   />
 );
@@ -65,7 +68,7 @@ const Done = ({ isLight, ...props }) => (
     containerViewStyle={{
       backgroundColor: "#9B8ACA",
     }}
-    textStyle={{ color: color(isLight) }}
+    textStyle={{ color: color(isLight), fontWeight: 'bold' }}
     {...props}
   />
 );
